@@ -1,96 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Camillo - Portfólio</title>
-</head>
-<body>
-  
-  <h1>Portfólio</h1>
-  <h2>Matheus Camillo dos Santos Fernandes</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Camillo - Portfólio</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <div class="teste1">
+          <div class="nav-title">
+            <h1>Meu Portfólio</h1>
+          </div>
 
-  <!-- um indice com links internos para navegação no portfólio -->
+          <!-- um indice com links internos para navegação no portfólio -->
+          <nav role="navigation" class="nav-indice">
+            <ul>
+              <li><a class="externals" href="#camilloimg">Como eu sou</a></li>
 
-  <h3>Índice</h3>
+              <li>
+                <a class="externals" href="#skills">Minhas habilidades</a>
+              </li>
 
-    <a href="#camilloimg">Como eu sou</a> | 
-    <a href="#aboutme">Descrição</a> | 
-    <a href="#skills">Minhas habilidades</a> | 
-    <a href="#personal">Curiosidades sobre mim</a> | 
-    <a href="#socialmedia">Minhas redes</a>
+              <li>
+                <a class="externals" href="#personal">Um pouco sobre mim</a>
+              </li>
 
-    <br>
-    <br>
-    <br>
+              <li><a class="externals" href="#socialmedia">Minhas redes</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-  <!-- minha foto e um pouco sobre mim -->
-  
-  <img id="camilloimg" src="/fotos/matheus.jpg" alt="uma imagem do matheus" width="200px">
+    <!-- minha foto e um pouco sobre mim -->
+    <div class="teste">
+      <div class="persoinfo">
+        <div class="persoimg">
+          <img
+            id="camilloimg"
+            src="/fotos/matheus.jpg"
+            alt="uma imagem do matheus"
+            width="200px"
+          />
+        </div>
+        <div class="personal-description">
+          <h3 id="aboutme">Quem sou eu</h3>
 
+          <p>
+            Brasileiro, morando atualmente no Rio de Janeiro. Tenho 24 anos e
+            estou me especializando em desenvolvimento web com foco no backend.
+            <span class="student">
+              Atualmente sou aluno de desenvolvimento web full stack na
+              <a href="https://betrybe.com" target="_blank">Trybe</a></span
+            >.
+          </p>
+        </div>
+      </div>
+    </div>
 
-  <h3 id="aboutme">Descrição</h3>
+    <!-- uma lista ordenada das minhas habilidades -->
+    <div class="teste2">
+      <div class="lists">
+        <h3 id="skills">
+          Logo abaixo está uma lista das habilidades que possuo.
+        </h3>
+        <div class="skill-list">
+          <ol>
+            <li>Git</li>
+            <li>Github</li>
+            <li><em>HTML</em></li>
+            <li><em>CSS</em></li>
+            <li><strong>JavaScript</strong></li>
+            <li>Zsh</li>
+            <li>Unix</li>
+            <li>Linux</li>
+            <li><em>React</em></li>
+          </ol>
+        </div>
+      </div>
+      
+      <div class="teste3">
+        <div class="aboutme-list">
+          <h3>Curiosidades sobre mim</h3>
+          <ul>
+            <li>Apaixonado por games</li>
+            <li>Adoro passar um tempo conversando com os amigos</li>
+            <li>Em um relacionamento há 8 anos</li>
+            <li>Meu PC minha vida</li>
+            <li><s>Adoro assistir animes</s></li>
+            <li>PC Master Race sempre</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <p>Brasileiro, morando atualmente no Rio de Janeiro. Tenho 24 anos e estou me especializando em desenvolvimento web com foco no backend. <br> Atualmente sou aluno de <strong>desenvolvimento full stack na <a href="https://betrybe.com"  target="_blank">Trybe</strong></a>.</p>
+    <!-- links externos do meu gosto pessoal -->
+    <div class="teste4">
+    <div class="external">
+      <h3 id="personal">Aqui se encontra alguns de meus blogs favoritos:</h3>
+      <a class="externals" href="https://adrenaline.com.br">Adrenaline</a
+      >
 
-  <!-- uma lista ordenada das minhas habilidades -->
+      <a class="externals" href="https://www.legiaodosherois.com.br/"
+        >Legião dos Heróis</a
+      >
+    </div>
+    </div>
 
-  <h3 id="skills">Logo abaixo está uma lista das habilidades que possuo.</h3>
-  <ol>
-    <li>Git</li>
-    <li>Github</li>
-    <li><em>HTML</em></li>
-    <li><em>CSS</em></li>
-    <li><strong>JavaScript</strong></li>
-    <li>Zsh</li>
-    <li>Unix</li>
-    <li>Linux</li>
-    <li><em>React</em></li>
-  </ol>
-  <br>
+    <!-- links para minhas redes sociais -->
+    <div class="media">
+      <h3 id="socialmedia">Aqui é onde você consegue me encontrar</h3>
 
-  <h3>Curiosidades sobre mim</h3>
-  <ul>
-    <li>Apaixonado por games</li>
-    <li>Adoro passar um tempo conversando com os amigos</li>
-    <li>Em um relacionamento há 8 anos</li>
-    <li>Meu PC minha vida</li>
-    <li><s>Adoro assistir animes</s></li>
-    <li>PC Master Race sempre</li>
-  </ul>
-  <br>
+      <a class="button" href="https://facebook.com/matheusincamillo"
+        >Facebook</a
+      >
+      |
 
+      <a class="button" href="https://github.com/mcamillosf" target="_blank"
+        >Github</a
+      >
+      |
 
+      <a
+        class="button"
+        href="https://www.linkedin.com/in/mcamillofernandes/"
+        target="_blank"
+        >Linkedin</a
+      >
+      |
 
-  <!-- links externos do meu gosto pessoal -->
-
-  <div id="personal"> 
-   <h3>Aqui se encontra alguns de meus blogs favoritos:</h3>
-    <a href="https://adrenaline.com.br">Adrenaline</a><br><br>
-  
-  <a href="https://www.legiaodosherois.com.br/">Legião dos Heróis</a><br><br>
-  </div>
-
-  <br>
- 
-  <!-- links para minhas redes sociais -->
-  <div id="socialmedia">
-
-    <h3>Aqui é onde você consegue me encontrar</h3>
-
-  <a href="https://facebook.com/matheusincamillo" target="_blank">
-    Facebook</a> | 
-
-  <a href="https://github.com/mcamillosf" target="_blank" >Github</a> | 
-
-  <a href="https://www.linkedin.com/in/mcamillofernandes/" target="_blank">Linkedin</a> | 
-
-  <a href="https://twitter.com/MatheusCamiillo" target="_blank">Twitter</a>
-  <br>
-  <br>
-  <br>
-  <br>
-</div>
-</body>
+      <a class="button" href="https://twitter.com/MatheusCamiillo">Twitter</a>
+      <br /><br /><br />
+    </div>
+  </body>
 </html>
