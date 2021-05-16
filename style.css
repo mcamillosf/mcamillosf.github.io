@@ -6,18 +6,23 @@ body {
   font-family: "Noto Sans Jp", sans-serif;
   color: #1a759f;
   text-align: center;
+  
 }
 
 header {
+  width: 100%;
   margin: 0;
   background-color: #cddafd;
   padding: 30px;
+  
+  position: fixed;
 }
 
 header::after {
   content: "";
   display: table;
   clear: both;
+  
 }
 
 .nav-bar {
@@ -32,6 +37,7 @@ header::after {
 .nav-indice {
   float: right;
   margin-right: 60px;
+  padding: 10px 0 0 0;
 }
 
 .nav-indice ul {
@@ -50,27 +56,29 @@ header::after {
   width: 100%;
   background-color: #fff;
   margin-top: 0;
+  padding-top: 5%;
 }
 
 .persoinfo {
   margin: auto;
-  width: 40%;
   height: 300px;
+  display: flex;
+  padding-left: 180px;
 }
 .personal-description {
   float: left;
   padding: 48px;
-  display: block;
   text-align: center;
-  width: 40%;
+  width: 400px;
+  display: block;
 }
 
 .persoimg img {
   float: right;
-
   border-radius: 100%;
   display: block;
-  padding: 48px;
+  margin: 48px 48px 0 0;
+  clear: none;
 }
 
 .name {
@@ -85,8 +93,18 @@ header::after {
   margin: 30px;
 }
 
+#skills, #me {
+  padding: 15px;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+}
+
 #personal {
-  margin-bottom: 30px;
+  padding-bottom: 25px;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
 }
 
 #socialmedia {
@@ -133,11 +151,18 @@ a:hover {
   background-color: blueviolet;
 }
 
+
+.lists {
+  background-color: #dfe7fd;
+  list-style: none;
+  
+}
+
 .skill-list {
   width: 30%;
   margin: auto;
-  padding: 10px 10px;
-  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 15px;
   text-align: center;
 }
 
@@ -145,15 +170,9 @@ a:hover {
   width: 30%;
   margin: auto;
   padding: 10px 10px;
-  list-style: none;
   text-align: center;
 }
 
-.lists {
-  background-color: #dfe7fd;
-  list-style: none;
-  display: block;
-}
 
 .media {
   text-align: center;
@@ -162,6 +181,8 @@ a:hover {
 
 .external {
   text-align: center;
+  padding: 10px 0 25px 0;
+  margin: 10px;
 }
 
 .teste2 {
@@ -173,5 +194,9 @@ a:hover {
 
 .teste4 {
   background-color: #dfe7fd;
-  padding: 30px;
+  margin: auto;
+}
+
+.teste100 {
+  overflow: auto;
 }
