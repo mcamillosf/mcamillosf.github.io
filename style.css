@@ -37,6 +37,10 @@ nav {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.descricao a {
+  color: white;
+}
+
 .desc-resid {
   margin-left: 10%;
   padding: 60px 0 0 0;
