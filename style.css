@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #b5d2cb;
+  color: #5db3db;
+  margin: 0;
+}
+
+header {
+  position: relative;
+}
+
+#indice {
+  color: white;
+  float: left;
+  width: 100px;
+  padding: 5px 0 0 30px;
+}
+
+nav {
+  float: right;
+  width: fit-content;
+  padding-right: 30px;
+}
+
+
+.meuNome{
+  font-family: 'Texturina', serif;
+  text-align: center;
+  padding: 60px;
+  margin-top: 30px;
+}
+
+.descricao {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.desc-resid {
+  margin-left: 10%;
+  padding: 60px 0 0 0;
+  width: 40%;
+}
+
+.resido {
+  font-weight: 900;
+}
+
+#camilloimg {
+  border-radius: 100%;
+  float: right;
+  height: 180px;
+  padding: 10px;
+  clear: none;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.sobreMim {
+  padding-top: 5%;
+  background-color: #1c1c1c;
+  padding-bottom: 50px;
+}
+
+.img-cont {
+  height: 200px;
+  min-width: 30%;
+  width: fit-content;
+  text-align: center;
+  min-width: 700px;
+  margin: auto;
+}
+
+.lista-skill, .lista-sobre, .button-personal, .button-media {
+  min-width: fit-content;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.container {
+  overflow: hidden;
+  background-color: rgba(31, 36, 36, 0.877);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.container a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.listas h3, .link-externo h3 {
+  padding: 15px;
+}
+
+.personal {
+  padding: 0 0 30px 0;
+}
+
+.socialmedia {
+  padding: 0 0 30px 0;
+}
+
+.personal h3,  .socialmedia h3 {
+  padding: 20px 0;
+}
+
+.personal a, .button a {
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.div-listas {
+  background-color: #1c1c1c;
+}
+
+.div-personal {
+  background-color: rgb(31, 36, 36);
+}
+
+.div-media {
+  background-color: #1c1c1c;
+}
+
+.background-skill {
+  background-color: rgb(31, 36, 36);
+  padding: 30px 0;
+}
+
+.background-sobre {
+  background-color: #1c1c1c;
+  padding: 30px 0;
+}
+
+.background-skill h3, .background-sobre h3 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.socialmedia a, .personal a {
+  padding: 5px 10px;
+  border-radius: 5%;
+  color: white;
+  background-color: rgb(71, 163, 216);
+  margin: 0 10px;
+}
+
+.socialmedia a:hover, .personal a:hover {
+  background-color: rgb(145, 70, 231);
+}
